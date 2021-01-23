@@ -1,0 +1,40 @@
+:root {
+  // COLORS PRIMARY:
+  --color-primary-violet: hsl(263, 55%, 52%);
+  --color-primary-gray: hsl(217, 19%, 35%);
+  --color-primary-dark: hsl(219, 29%, 14%);
+  --color-white: hsl(0, 0%, 100%);
+
+  //COLORS NEUTRAL:
+  --color-secondary-dark: hsl(0, 0%, 81%);
+  --color-secondary-light: hsl(210, 46%, 95%);
+
+  //       Note for text colors:
+  //   1. "Verified Graduate" has the same color as the person's name with 50% opacity
+  //   2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity
+
+  // FONT
+  --font-family-primary: "Barlow Semi Condensed", sans-serif;
+  --font-weight-m: 500;
+  --font-weight-sb: 600;
+}
+
+html {
+  font-size: 62.5%; // 10px/16px= 62.5% --> so 1rem equals 10px
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font-family-primary);
+  font-size: 1.3rem;
+  font-weight: var(--font-weight-m);
+  line-height: 1.3;
+}
