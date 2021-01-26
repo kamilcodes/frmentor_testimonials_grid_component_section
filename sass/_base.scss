@@ -7,7 +7,7 @@
 
   //COLORS NEUTRAL:
   --color-secondary-dark: hsl(0, 0%, 81%);
-  --color-secondary-light: hsl(210, 46%, 95%);
+  --color-secondary-light: rgb(236, 242, 248);
 
   //       Note for text colors:
   //   1. "Verified Graduate" has the same color as the person's name with 50% opacity
@@ -15,6 +15,7 @@
 
   // FONT
   --font-family-primary: "Barlow Semi Condensed", sans-serif;
+  --font-weight-n: 500;
   --font-weight-m: 500;
   --font-weight-sb: 600;
 }
@@ -35,6 +36,6 @@ html {
 body {
   font-family: var(--font-family-primary);
   font-size: 1.3rem;
-  font-weight: var(--font-weight-m);
-  line-height: 1.3;
+  font-weight: var(--font-weight-n);
+  line-height: 1.2;
 }
